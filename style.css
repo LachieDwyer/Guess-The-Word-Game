@@ -1,0 +1,15 @@
+#output{
+background:white;
+border-radius:10px;
+border-top:10px solid red;
+float:none;
+text-align:left;
+}
+
+#word{
+width:60%;
+}
+
+#send{
+margin-top:25px;
+}

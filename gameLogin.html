@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guess the word game</title>
+<style>
+body {
+  font-family: sans-serif;
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.player-login {
+  background-color: white;
+  width:25%;
+  border-radius:30px;
+  padding: 10px;
+  margin:10px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  margin-top:20px;
+  width:20%;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Guess the word game</h1>
+<center>
+<div class="player-login">
+<h2>Player 1 Login for the game</h2>
+<h4>Player 1 Username</h4>
+<input type="text" placeholder="Player 1 name" id="player1_name">
+</div>
+<div class="player-login">
+  <h2>Player 2 Login for the game</h2>
+  <h4>Player 2 Username</h4>
+  <input type="text" placeholder="Player 2 name" id="player2_name">
+</div>
+<button id="startGame" onClick="addUser()">Start Game</button>
+</center>
+<script src="gameLogin.js"></script>
+</body>
+</html>
